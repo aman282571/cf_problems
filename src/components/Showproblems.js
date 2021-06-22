@@ -33,7 +33,7 @@ function Showusers(props) {
       });
     }
     temp = temp.filter(
-      (problem) => problem.name.toLowerCase().indexOf(search.trim()) !== -1
+      (problem) => problem.name.toLowerCase().indexOf(search.toLowerCase().trim()) !== -1
     );
     temp.sort((a, b) => {
       if (a.rating !== b.rating) return a.rating - b.rating;

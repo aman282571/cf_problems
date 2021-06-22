@@ -162,7 +162,7 @@ function Showusers(props) {
             </li>
             {props.tags
               .filter((ele) => {
-                return ele.indexOf(filterTags) !== -1;
+                return ele.toLowerCase().indexOf(filterTags.toLowerCase()) !== -1;
               })
               .map((ele, index) => {
                 return (

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cf_problems/static/css/main.45a26cac.chunk.css",
-    "main.js": "/cf_problems/static/js/main.d32622ed.chunk.js",
-    "main.js.map": "/cf_problems/static/js/main.d32622ed.chunk.js.map",
+    "main.css": "/cf_problems/static/css/main.8fc3203c.chunk.css",
+    "main.js": "/cf_problems/static/js/main.967f2eb8.chunk.js",
+    "main.js.map": "/cf_problems/static/js/main.967f2eb8.chunk.js.map",
     "runtime-main.js": "/cf_problems/static/js/runtime-main.89ad6d92.js",
     "runtime-main.js.map": "/cf_problems/static/js/runtime-main.89ad6d92.js.map",
     "static/js/2.0f0bce07.chunk.js": "/cf_problems/static/js/2.0f0bce07.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.cfe80b9f.chunk.js": "/cf_problems/static/js/3.cfe80b9f.chunk.js",
     "static/js/3.cfe80b9f.chunk.js.map": "/cf_problems/static/js/3.cfe80b9f.chunk.js.map",
     "index.html": "/cf_problems/index.html",
-    "static/css/main.45a26cac.chunk.css.map": "/cf_problems/static/css/main.45a26cac.chunk.css.map",
+    "static/css/main.8fc3203c.chunk.css.map": "/cf_problems/static/css/main.8fc3203c.chunk.css.map",
     "static/js/2.0f0bce07.chunk.js.LICENSE.txt": "/cf_problems/static/js/2.0f0bce07.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.89ad6d92.js",
     "static/js/2.0f0bce07.chunk.js",
-    "static/css/main.45a26cac.chunk.css",
-    "static/js/main.d32622ed.chunk.js"
+    "static/css/main.8fc3203c.chunk.css",
+    "static/js/main.967f2eb8.chunk.js"
   ]
 }

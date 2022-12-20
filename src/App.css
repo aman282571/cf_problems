@@ -5,15 +5,26 @@
   padding: 0px;
   margin: 0px;
 }
+.blurlayer{
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0,0.5);
+  
+}
 body {
-  background-color: rgba(155, 172, 148, 0.342);
+  color: white;
+  background-image:url("./components/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
 form {
   max-width: 1000px;
   margin: auto;
-  margin-top: 100px;
+  /* margin-top: 100px; */
+  
   padding: 30px;
-  font-family: ubuntu, sans-serif;
+  padding-top: 130px;
+  font-family: Robotot, sans-serif;
 }
 
 form > p {
@@ -36,9 +47,19 @@ h1 {
   text-align: center;
   font-family: Roboto, sans-serif;
   padding: 20px;
-  color: rgb(2, 148, 245);
-  margin-bottom: 30px;
+  color: rgb(81, 255, 0);
+  margin-bottom: 10px;
   font-weight: bolder;
+  padding-bottom: 0px;
+}
+h2{
+  font-size: 2rem;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  padding: 20px;
+  color: rgb(2, 205, 245);
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 #container {
   padding: 20px;
@@ -55,6 +76,10 @@ h1 {
   cursor: pointer;
   font-family: Raleway;
 }
+#user{
+border-radius: 20px;
+padding: 5px 20px;
+}
 .dropdown > li,
 select {
   position: relative;
@@ -64,13 +89,14 @@ select {
   text-align: right;
   padding: 10px;
   font-family: roboto;
-  color: darkblue;
+  color: rgb(14, 14, 255);
   font-size: 1.3rem;
   font-weight: bolder;
 }
 .tags {
-  padding: 3px;
-  background-color: whitesmoke;
+  color: black;
+  padding: 3px 10px;
+  background-color: white;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.521);
 }
 select {
@@ -103,7 +129,7 @@ ul {
   width: 100%;
   outline: none;
   height: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border: none;
   border: 1px solid black;
   border-radius: 1rem;
@@ -140,20 +166,22 @@ ul {
   border-bottom: none;
 }
 .table-container {
-  overflow-x: auto;
+  overflow-x:auto;
 }
 
 table {
   margin: auto;
   margin-top: 20px;
   border-collapse: collapse;
+  width: auto;
+  min-width: 700px;
 }
 td,
 th {
   white-space: nowrap;
   padding: 10px 10px;
   text-align: left;
-  font-family: ubuntu;
+  font-family: Roboto;
   cursor: pointer;
 }
 th {
@@ -163,7 +191,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: rgba(219, 219, 219, 0.685);
+  background-color:rgb(143, 143, 143,0.3);
 }
 
 a {
@@ -176,6 +204,10 @@ a {
 }
 #status {
   color: green;
+}
+.status{
+  font-size: 1rem;
+
 }
 #rating {
   color: rgb(2, 104, 27);
@@ -220,7 +252,7 @@ td {
   flex-wrap: wrap;
 }
 .Showtags > p {
-  padding: 5px;
+  padding: 3px 8px ;
   border-radius: 3px;
   text-transform: capitalize;
   margin: 5px 10px;
@@ -245,6 +277,10 @@ td {
   }
   h1 {
     font-size: 2rem;
+  }
+  h2{
+    
+    font-size: 1.4rem;
   }
   #container {
     padding: 10px;
